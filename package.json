@@ -1,0 +1,26 @@
+{
+  "name": "vite-demo",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@alifd/next": "^1.21.16",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/react-router": "^5.1.11",
+    "@types/react-router-dom": "^5.1.7",
+    "@vitejs/plugin-react-refresh": "^1.1.0",
+    "sass": "^1.32.8",
+    "typescript": "^4.1.2",
+    "vite": "^2.0.0-beta.50"
+  }
+}
