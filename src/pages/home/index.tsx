@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Editor from '../../components/Editor';
 
-export default class HomePage extends React.Component {
-  render() {
-    return <div>home</div>;
-  }
+export default function Home() {
+  return <div>
+    <Editor />
+  </div>
 }

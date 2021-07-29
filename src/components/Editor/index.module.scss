@@ -1,0 +1,30 @@
+.container {
+  font-size: 12px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  display: flex;
+}
+.sidebar {
+  flex: 160px 0 0;
+  border-right: 1px solid #eee;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  flex: 33% 0 0;
+  padding: 4px 5px;
+  font-size: 12px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+}
+.itemIcon {
+  padding-bottom: 100%;
+  margin-bottom: 8px;
+  background-color: #eee;
+}
+.editor {
+  flex: 1;
+}
